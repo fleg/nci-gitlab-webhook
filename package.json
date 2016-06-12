@@ -1,0 +1,32 @@
+{
+  "name": "nci-gitlab-webhook",
+  "version": "0.0.1",
+  "description": "gitlab webhooks for nci",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleg/nci-gitlab-webhook.git"
+  },
+  "keywords": [
+    "nciplugin",
+    "gitlab",
+    "webhook",
+    "hook"
+  ],
+  "author": "Aleksey Timchenko <flegmatik.bel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fleg/nci-gitlab-webhook/issues"
+  },
+  "homepage": "https://github.com/fleg/nci-gitlab-webhook",
+  "peerDependencies": {
+    "nci": "0.10.x",
+    "nci-express": "1.0.0"
+  },
+  "dependencies": {
+    "nci-base-webhook": "1.0.0"
+  }
+}
