@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fleg/nci-gitlab-webhook.git"
+    "url": "https://github.com/node-ci/nci-gitlab-webhook.git"
   },
   "keywords": [
     "nciplugin",
@@ -19,9 +19,9 @@
   "author": "Aleksey Timchenko <flegmatik.bel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fleg/nci-gitlab-webhook/issues"
+    "url": "https://github.com/node-ci/nci-gitlab-webhook/issues"
   },
-  "homepage": "https://github.com/fleg/nci-gitlab-webhook",
+  "homepage": "https://github.com/node-ci/nci-gitlab-webhook",
   "peerDependencies": {
     "nci": ">=1.0.1 <1.1.0",
     "nci-express": ">=2.0.0"

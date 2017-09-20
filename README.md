@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-[nci-express](https://github.com/fleg/nci-express)
+[nci-express](https://github.com/node-ci/nci-express)
 
 ## Installation
 
@@ -29,4 +29,4 @@ plugin will listen `POST /webhooks/:projectName/gitlab/123456` route.
 
 ## License
 
-[The MIT License](https://raw.githubusercontent.com/fleg/nci-gitlab-webhook/master/LICENSE)
+[The MIT License](https://raw.githubusercontent.com/node-ci/nci-gitlab-webhook/master/LICENSE)
