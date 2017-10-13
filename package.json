@@ -27,6 +27,6 @@
     "nci-express": ">=2.0.0"
   },
   "dependencies": {
-    "nci-base-webhook": "1.1.0"
+    "nci-base-webhook": "1.2.0"
   }
 }
