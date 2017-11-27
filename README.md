@@ -28,12 +28,6 @@ webhooks:
 plugin will listen `POST /webhooks/:projectName/gitlab` and will get secret
 from ```X-Gitlab-Token``` request header.
 
-Plugin also will listen `POST /webhooks/:projectName/gitlab/123456` to
-get secret from url for backward compatibility (will be removed on next
-major release).
-
-Please prefer first method (with request header) for new installations.
-
 ## License
 
 [The MIT License](https://raw.githubusercontent.com/node-ci/nci-gitlab-webhook/master/LICENSE)
