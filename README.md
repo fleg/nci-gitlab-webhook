@@ -32,7 +32,7 @@ webhooks:
 plugin will listen `POST /webhooks/:projectName/gitlab` and will get secret
 from ```X-Gitlab-Token``` request header.
 
-Also plugin support force build running via adding MR comment with text `/run_ci`.
+Also plugin supports force build running via adding MR comment with text `/run_ci`.
 
 ## License
 
