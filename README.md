@@ -28,6 +28,20 @@ webhooks:
 plugin will listen `POST /webhooks/:projectName/gitlab` and will get secret
 from ```X-Gitlab-Token``` request header.
 
+By default plugin supports only GitLab `Push Hook` events to run build on new commits in default branch (specified in `scm.rev` section of project config).
+
+In order to run build on GitLab Merge Request opening or new commits in source branch add `Merge Request Hook` to `webhooks.gitlab.events` section of project config.
+
+Also plugin supports force build running via adding MR comment with text `/run_ci`. It requires `Note Hook` in `webhooks.gitlab.events` section of project config, f.e.:
+```yml
+webhooks:
+    gitlab:
+        events:
+            - Push Hook
+            - Merge Request Hook
+            - Note Hook
+```
+
 ## License
 
 [The MIT License](https://raw.githubusercontent.com/node-ci/nci-gitlab-webhook/master/LICENSE)
