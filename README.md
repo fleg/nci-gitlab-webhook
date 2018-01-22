@@ -41,17 +41,13 @@ source branch add `Merge Request Hook` to `webhooks.gitlab.events` section
 of project config.
 
 Also plugin supports force build running via adding MR comment with text
-`/run_ci`. It requires `Note Hook` in `webhooks.gitlab.events` section
-of project config, e.g.:
+`/run_ci`.
 
-```yml
-webhooks:
-    gitlab:
-        events:
-            - Push Hook
-            - Merge Request Hook
-            - Note Hook
-```
+Plugin requires following events in GitLab webhook:
+
+- Push Hook
+- Merge Request Hook
+- Note Hook
 
 ## License
 
