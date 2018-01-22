@@ -36,9 +36,8 @@ By default plugin processes only GitLab `Push Hook` events to run build
 on new commits in default branch (specified in `scm.rev` section of project
 config).
 
-In order to run build on GitLab Merge Request opening or new commits in
-source branch add `Merge Request Hook` to `webhooks.gitlab.events` section
-of project config.
+Plugin will run build on GitLab Merge Request opening or new commits in
+source branch if `Merge Request Hook` specified in GitLab.
 
 Also plugin supports force build running via adding MR comment with text
 `/run_ci`.
