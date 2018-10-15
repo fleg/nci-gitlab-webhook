@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "jshint ./",
-    "test": "mocha --bail --reporter=spec --timeout 10000"
+    "test": "mocha --bail --recursive --reporter=spec --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "expect.js": "0.3.1",
     "jshint": "2.4.4",
     "mocha": "2.0.1",
+    "rewire": "4.0.1",
     "sinon": "1.17.2"
   }
 }
