@@ -50,7 +50,7 @@ Plugin requires following events in GitLab webhook:
 
 ## Skip builds
 
-You can avoid of build creation by adding `[skip-ci]` (or `[ci-skip]`) to
+You can avoid of build creation by adding `[skip ci]` (or `[ci skip]`) to
 commit message. Also plugin skips builds of merge requests in
 work-in-progress status.
 
