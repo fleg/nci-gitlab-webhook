@@ -4,6 +4,7 @@
   "description": "gitlab webhooks for nci",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "jshint ./",
     "test": "mocha --bail --reporter=spec --timeout 10000"
   },
   "repository": {

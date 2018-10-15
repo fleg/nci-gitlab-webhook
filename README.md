@@ -48,6 +48,12 @@ Plugin requires following events in GitLab webhook:
 - Merge Request Hook
 - Note Hook
 
+## Skip builds
+
+You can avoid of build creation by adding `[skip-ci]` (or `[ci-skip]`) to
+commit message. Also plugin skips builds of merge requests in
+work-in-progress status.
+
 ## License
 
 [The MIT License](https://raw.githubusercontent.com/node-ci/nci-gitlab-webhook/master/LICENSE)
