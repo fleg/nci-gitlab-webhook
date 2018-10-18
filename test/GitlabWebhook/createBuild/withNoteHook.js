@@ -7,7 +7,7 @@ var sinon = require('sinon');
 var lib = rewire('../../../lib');
 var GitlabWebhook = lib.__get__('GitlabWebhook');
 
-var describeTitle = 'GitlabWebhook.createBuild with merge request webhook';
+var describeTitle = 'GitlabWebhook.createBuild with note webhook';
 describe(describeTitle, function() {
 	var initialArgs = {
 		req: {

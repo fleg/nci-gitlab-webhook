@@ -27,7 +27,7 @@ describe('lib.register with suitable params', function() {
 		});
 	});
 
-	it('should return gitlab token', function() {
+	it('should be ok', function() {
 		var result = lib.register(initialArgs.app);
 	});
 
