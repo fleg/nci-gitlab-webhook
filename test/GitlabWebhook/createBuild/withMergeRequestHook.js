@@ -34,7 +34,7 @@ describe(describeTitle, function() {
 		}
 	};
 
-	it('should return truthy value', function() {
+	it('should be ok', function() {
 		var webhook = new GitlabWebhook();
 		webhook.createBuild(
 			initialArgs.req, initialArgs.project, initialArgs.app
