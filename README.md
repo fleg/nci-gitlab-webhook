@@ -1,4 +1,5 @@
 # nci-gitlab-webhook
+[![Build Status](https://travis-ci.org/node-ci/nci-gitlab-webhook.svg?branch=master)](https://travis-ci.org/node-ci/nci-gitlab-webhook)
 
 [gitlab](https://gitlab.com) webhook plugin for [nci](https://github.com/node-ci/nci)
 
