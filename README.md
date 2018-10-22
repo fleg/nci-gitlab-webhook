@@ -1,4 +1,5 @@
 # nci-gitlab-webhook
+[![Build Status](https://travis-ci.org/node-ci/nci-gitlab-webhook.svg?branch=master)](https://travis-ci.org/node-ci/nci-gitlab-webhook)
 
 [gitlab](https://gitlab.com) webhook plugin for [nci](https://github.com/node-ci/nci)
 
@@ -47,6 +48,11 @@ Plugin requires following events in GitLab webhook:
 - Push Hook
 - Merge Request Hook
 - Note Hook
+
+## Skip builds
+
+You can avoid of build creation by adding `[skip ci]` or `[ci skip]` to
+commit message.
 
 ## License
 

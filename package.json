@@ -4,7 +4,8 @@
   "description": "gitlab webhooks for nci",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint ./",
+    "test": "mocha --bail --recursive --reporter=spec --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,12 @@
   },
   "dependencies": {
     "nci-base-webhook": "1.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "jshint": "2.4.4",
+    "mocha": "2.2.5",
+    "rewire": "4.0.1",
+    "sinon": "1.17.2"
   }
 }
